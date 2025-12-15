@@ -49,7 +49,7 @@ public class BankAccount {
                 System.out.println("Invalid option");
         }
 
-        System.out.println("\n87774Final Balance: " + acc.getBalance());
+        System.out.println("\nFinal Balance: " + acc.getBalance());
         sc.close();
     }
 }
