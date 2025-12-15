@@ -27,18 +27,5 @@ public class Driver {
 		System.out.println("Age:"+student2.age);
 		System.out.println("phone no:"+student2.phone_no);
 		
-/******************************************************/
-		
-		
-		
-		
-		
-		
-		
-    
 	}
-	
-	
-	
-	
 }

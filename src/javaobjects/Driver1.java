@@ -11,7 +11,7 @@ public static void main(String[]args) {
 	
 	
 	student1 student2=new student1(102,"Naveen",20,6344564911l);
-      student2.display();
+    student2.display();
 	
 	
 	
