@@ -1,9 +1,10 @@
 package javaobjects;
 
-public class student {
+public class Student {
 	int rollno;
 	String name;
 	int age;
 	long phone_no;
 	
-}
+	
+  }

@@ -3,7 +3,7 @@ package javaobjects;
 public class Driver {
 
 	public static void main(String[]args) {
-		student student1=new student();
+		Student student1=new Student();
 		student1.rollno=101;
 		student1.name="Mukeshkumar";
 		student1.age=20;
@@ -15,14 +15,14 @@ public class Driver {
 		System.out.println("phone no:"+student1.phone_no);
 		
 		
-		student student2=new student();
+		Student student2=new Student();           
 		student2.rollno=102;
 		student2.name="Naveen";
 		student2.age=21;
-		student2.phone_no=9345776911l;
+		student2.phone_no=945776911l;
 		
 		
-		System.out.println("Roll no:"+student2.rollno);
+		System.out.println("\nRoll no:"+student2.rollno);
 		System.out.println("Name:"+student2.name);
 		System.out.println("Age:"+student2.age);
 		System.out.println("phone no:"+student2.phone_no);
