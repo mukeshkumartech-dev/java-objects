@@ -8,8 +8,12 @@ public class BankAccount {
 
         Scanner sc = new Scanner(System.in);
         Bankaccount1 acc = new Bankaccount1();
-
+        System.out.println();
         System.out.print("Enter Account No: ");
+        
+        
+        
+        
         acc.setAccountNo(sc.nextInt());
 
         sc.nextLine(); 
@@ -43,8 +47,7 @@ public class BankAccount {
 
             case 3:
                 acc.displayBalance();
-                break;
-
+                break;
             default:
                 System.out.println("Invalid option");
         }
